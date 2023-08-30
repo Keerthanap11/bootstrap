@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background: orange;
+}
+
+.nav-link {
+  color: black;
+}
+
+.carousel-inner {
+  max-height: 99vh;
+}
+
+nav {
+  z-index: 1;
+}
+
+section {
+  min-height: 70vh;
+}
+
+#shop,
+#reviews,
+#about {
+  padding-top: 17vh;
+}
+
+.review-card {
+  max-width: 300px;
+  max-height: 400px;
+}
+
+form {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.borderline {
+  border: 0.5px solid black;
+  padding: 20px;
+  border-radius: 10px;
+}
+
